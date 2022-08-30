@@ -32,6 +32,7 @@ properties:
       return:
         description: ''
         type: MapConstructor
+inheritedProperties:
   - name: size
     uid: botbuilder-core.TurnContextStateCollection.size
     package: botbuilder-core
@@ -45,6 +46,7 @@ properties:
       return:
         description: ''
         type: number
+    inheritanceDescription: <b>Inherited From</b> Map.size
 inheritedMethods:
   - name: clear()
     uid: botbuilder-core.TurnContextStateCollection.clear
@@ -55,6 +57,7 @@ inheritedMethods:
     isDeprecated: false
     syntax:
       content: function clear()
+    inheritanceDescription: <b>Inherited From</b> Map.clear
   - name: delete(any)
     uid: botbuilder-core.TurnContextStateCollection.delete
     package: botbuilder-core
@@ -71,6 +74,7 @@ inheritedMethods:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: <b>Inherited From</b> Map.delete
   - name: entries()
     uid: botbuilder-core.TurnContextStateCollection.entries
     package: botbuilder-core
@@ -83,6 +87,7 @@ inheritedMethods:
       return:
         description: ''
         type: 'IterableIterator&lt;[any, any]&gt;'
+    inheritanceDescription: <b>Inherited From</b> Map.entries
   - name: 'forEach((value: any, key: any, map: Map<any, any>) => void, any)'
     uid: botbuilder-core.TurnContextStateCollection.forEach
     package: botbuilder-core
@@ -101,6 +106,7 @@ inheritedMethods:
         - id: thisArg
           type: any
           description: ''
+    inheritanceDescription: <b>Inherited From</b> Map.forEach
   - name: has(any)
     uid: botbuilder-core.TurnContextStateCollection.has
     package: botbuilder-core
@@ -117,6 +123,7 @@ inheritedMethods:
       return:
         description: ''
         type: boolean
+    inheritanceDescription: <b>Inherited From</b> Map.has
   - name: keys()
     uid: botbuilder-core.TurnContextStateCollection.keys
     package: botbuilder-core
@@ -129,6 +136,7 @@ inheritedMethods:
       return:
         description: ''
         type: IterableIterator&lt;any&gt;
+    inheritanceDescription: <b>Inherited From</b> Map.keys
   - name: 'set(any, any)'
     uid: botbuilder-core.TurnContextStateCollection.set
     package: botbuilder-core
@@ -148,6 +156,7 @@ inheritedMethods:
       return:
         description: ''
         type: this
+    inheritanceDescription: <b>Inherited From</b> Map.set
   - name: values()
     uid: botbuilder-core.TurnContextStateCollection.values
     package: botbuilder-core
@@ -160,6 +169,7 @@ inheritedMethods:
       return:
         description: ''
         type: IterableIterator&lt;any&gt;
+    inheritanceDescription: <b>Inherited From</b> Map.values
 methods:
   - name: get(any)
     uid: botbuilder-core.TurnContextStateCollection.get_1
